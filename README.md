@@ -1,7 +1,7 @@
 # HandlerWs
 
-Servicio web sencillo que se puede publicar el mismo con WsPublisher
-Cuenta con la implementacion de SOAPHandler el cual permite interceptar y acceder a los mensajes SOAP
+Servicio web sencillo que se puede publicar el mismo con `WsPublisher`
+Cuenta con la implementacion de `SOAPHandler` el cual permite interceptar y acceder a los mensajes SOAP
 tanto en el request como en el response.
 
 Sirve para probar servicios web sencillos.
