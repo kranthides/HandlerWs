@@ -6,14 +6,16 @@ tanto en el request como en el response.
 
 Sirve para probar servicios web sencillos.
 
-tomado del tutorial:
-http://www.mkyong.com/webservices/jax-ws/jax-ws-soap-handler-in-server-side/
+[Tomado del tutorial](http://www.mkyong.com/webservices/jax-ws/jax-ws-soap-handler-in-server-side/)
 
 cuando se valla a crear un servicio nuevo se tiene que generar:
+```sh
 wsgen -keep -verbose -cp . YYY.TTT
-
+```
 YYY -> paquetes
 TTT -> clase que representa el servicio
 
-Ejemplo:
+## Ejemplo:
+```sh
 wsgen -keep -verbose -cp . com.mkyong.ws.ServerInfo
+```
