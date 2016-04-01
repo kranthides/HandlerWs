@@ -8,6 +8,11 @@ Sirve para probar servicios web sencillos.
 
 [Tomado del tutorial](http://www.mkyong.com/webservices/jax-ws/jax-ws-soap-handler-in-server-side/)
 
+## Ejemplo
+
+Se compila con `build.xml`
+para que corra en la carpeta `bin` deben existir los `.class`
+
 cuando se valla a crear un servicio nuevo se tiene que generar:
 ```sh
 wsgen -keep -verbose -cp . YYY.TTT
